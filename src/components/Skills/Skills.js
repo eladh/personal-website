@@ -45,9 +45,6 @@ const Skills = () => (
       {/* <SkillPie percent={90} name={"JavaScript"} /> */}
       <Flex className="skill__icons" justify="space-around" align="center">
       <img width="200px" src="https://images.credly.com/size/680x680/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png" alt="Elad Hirsch" />
-      <img width="200px" src="https://www.freecodecamp.org/news/content/images/size/w2000/2022/01/cka-article-image.png" alt="Elad Hirsch" />
-      <img width="200px" src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Solutions-Architect-Professional_badge.69d82ff1b2861e1089539ebba906c70b011b928a.png" alt="Elad Hirsch" />
-      <img width="200px" src="https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Data-Analytics-Specialty_badge.c74203ecf6d7c4889d01d8b4ba5c9df6e69c6f43.png" alt="Elad Hirsch" />
       <img width="200px" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/3a/9d2a7af297483a845340bcfbac6f1e/MLS.course-banners-01_Course-Logo-.png?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="Elad Hirsch" />
       </Flex>
     </ParallaxProvider>
