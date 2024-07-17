@@ -59,7 +59,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: public
-          name: gatsby-build
+          name: github-pages
 
   deploy:
     environment:
@@ -74,7 +74,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
-          name: gatsby-build
+          name: github-pages
           path: public
 
       - name: Extract artifact
