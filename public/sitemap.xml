@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://eladh.github.io/case-studies/data-in-the-wild-west-with-some-dev-ops-to-the-rescue</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://eladh.github.io/case-studies/ci-cd-in-the-age-of-cloud-native</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://eladh.github.io/case-studies/knative-deploy-and-manage-modern-container-based-serverless-workloads-workload</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://eladh.github.io/blog/building-a-react-folder-tree-component</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://eladh.github.io/blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://eladh.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-</urlset>

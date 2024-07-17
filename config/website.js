@@ -1,11 +1,11 @@
 const meta = {
   // Metadata
-  siteTitle: 'Elad Hirsch - Creative Web Designer',
+  siteTitle: 'Elad Hirsch - Tech Lead',
   siteDescription:
-    'Elad Hirsch - Creative frontEnd web developer who loves javascript and modern web technologies.',
+    'Elad Hirsch - Tech Lead',
   siteTitleAlt: 'Elad Hirsch',
   siteShortName: 'Elad Hirsch',
-  siteUrl: 'https://eladh.github.io', // No trailing slash!
+  siteUrl: 'https://eladh.github.io/personal-website', // No trailing slash!
 };
 
 const social = {
@@ -17,7 +17,7 @@ const social = {
 const website = {
   ...meta,
   ...social,
-  disqusShortName: 'eladh',
+  disqusShortName: 'elad',
   googleAnalyticsID: 'UA-119972196-1',
   // Manifest
   themeColor: '#6D83F2',

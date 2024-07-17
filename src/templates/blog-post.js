@@ -11,6 +11,7 @@ import { DiscussionEmbed } from 'disqus-react';
 import { siteUrl, disqusShortName } from '../../config/website';
 
 const BlogPost = ({ data, pageContext }) => {
+  
   const { title, date } = data.markdownRemark.frontmatter;
   const { timeToRead, html, excerpt, id } = data.markdownRemark;
 

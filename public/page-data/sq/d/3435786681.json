@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Building Something"},"fields":{"slug":"/blog/building-something"}}}],"totalCount":1}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Configuring Kubernetes with YAML"},"fields":{"slug":"/blog/configuring-kubernetes-with-yaml"}}},{"node":{"frontmatter":{"title":"Configuring Kubernet22222es with YAML"},"fields":{"slug":"/blog/configuring-kubernet22222-es-with-yaml"}}}],"totalCount":2}}}

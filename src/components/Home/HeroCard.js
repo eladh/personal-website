@@ -13,15 +13,29 @@ export const CodeCard = () => {
         &nbsp;&nbsp;{'{'}
       </pre>
       <pre>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name : "<b>Elad Hirsch</b>",
+        &nbsp;&nbsp;&nbsp;&nbsp;"name": "<b>Elad Hirsch</b>",
       </pre>
       <pre>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Focus Area : [<b>"Public Cloud"</b> ,<b>"Data"</b>, <b>"LLM"</b>]",
+        &nbsp;&nbsp;&nbsp;&nbsp;"focusArea": [
       </pre>
       <pre>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email : "<b>elad@terasky.com</b>"
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"<b>Cloud</b>",
       </pre>
-      <pre>&nbsp;&nbsp;{'}'}</pre>
+      <pre>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"<b>Data</b>",
+      </pre>
+      <pre>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"<b>LLM</b>"
+      </pre>
+      <pre>
+        &nbsp;&nbsp;&nbsp;&nbsp;],
+      </pre>
+      <pre>
+        &nbsp;&nbsp;&nbsp;&nbsp;"email": "<b>elad@terasky.com</b>"
+      </pre>
+      <pre>
+        &nbsp;&nbsp;{'}'}
+      </pre>
     </CodeCardWrapper>
   );
 };

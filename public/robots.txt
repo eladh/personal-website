@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /goodies
-Sitemap: https://eladh.github.io/sitemap.xml
-Host: https://eladh.github.io

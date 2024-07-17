@@ -17,10 +17,10 @@ const ThingsILove = () => (
       <CardIcon>
       <FontAwesomeIcon icon={['fab', 'aws']} />
       </CardIcon>
-      <CardTitle>Public Cloud</CardTitle>
+      <CardTitle>Cloud</CardTitle>
       <CardText>
      Leveraging AWS to architect and implement scalable, secure, and cost-efficient cloud infrastructures.
-     Includes designing data lakes, optimizing Kubernetes clusters, and integrating advanced observability practices
+     Includes Kubernetes clusters, and integrating advanced observability practices
      to enhance operational efficiency and resilience.
       </CardText>
     </Card>
