@@ -59,6 +59,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: public
+          name: gatsby-build
 
   deploy:
     environment:
@@ -90,6 +91,6 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         with:
           folder: extracted
