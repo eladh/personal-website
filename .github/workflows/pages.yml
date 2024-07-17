@@ -48,6 +48,13 @@ jobs:
           PREFIX_PATHS: 'true'
         run: ${{ env.manager }} run build
 
+      - name: Verify public directory
+        run: |
+          echo "Contents of public directory:"
+          ls -la public
+          echo "Directory size:"
+          du -sh public
+
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
@@ -61,11 +68,21 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
           name: gatsby-build
           path: public
+
+      - name: Verify downloaded artifact
+        run: |
+          echo "Contents of downloaded public directory:"
+          ls -la public
+          echo "Directory size after download:"
+          du -sh public
 
       - name: Deploy to GitHub Pages
         id: deployment
