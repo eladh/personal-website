@@ -56,7 +56,7 @@ jobs:
           du -sh public
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: gatsby-build
           path: public
@@ -84,8 +84,13 @@ jobs:
           echo "Directory size after download:"
           du -sh public
 
+      - name: Check for symlinks
+        run: |
+          echo "Checking for symlinks in public directory:"
+          find public -type l -exec ls -la {} \;
+
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         with:
           artifact_name: gatsby-build
