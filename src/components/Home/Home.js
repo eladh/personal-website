@@ -8,7 +8,6 @@ import { HomeWrapper, Intro } from './Home.style';
 import IconLink from '@common/IconLink';
 import PageHeader from '@common/PageHeader';
 import Flex from '@common/Flex';
-import Button from '@common/Button';
 
 import { Card, CardIcon, CardText, CardTitle } from '@common/Card';
 
@@ -16,34 +15,36 @@ const ThingsILove = () => (
   <Flex justify="space-between" align="center">
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon="chalkboard-teacher" />
-      </CardIcon>
-      <CardTitle>Training</CardTitle>
-      <CardText>
-        I'm more front end focused and love to work with Reactjs as well as pure
-        HTML, CSS.
-      </CardText>
-    </Card>
-
-    <Card>
-      <CardIcon>
-        <FontAwesomeIcon icon={['fab', 'dev']} />
-      </CardIcon>
-      <CardTitle>Development</CardTitle>
-      <CardText>
-        I just extremely love javascript, I can’t even express how much I love
-        javascript with just a few lines.
-      </CardText>
-    </Card>
-
-    <Card>
-      <CardIcon>
       <FontAwesomeIcon icon={['fab', 'aws']} />
       </CardIcon>
-      <CardTitle>Consulting</CardTitle>
+      <CardTitle>Public Cloud</CardTitle>
       <CardText>
-        I love creative coding because I do both coding & designing. making
-        beautiful art with code is very satisfying to me.
+     Leveraging AWS to architect and implement scalable, secure, and cost-efficient cloud infrastructures.
+     Includes designing data lakes, optimizing Kubernetes clusters, and integrating advanced observability practices
+     to enhance operational efficiency and resilience.
+      </CardText>
+    </Card>
+
+    <Card>
+      <CardIcon>
+        <FontAwesomeIcon icon={['fa', 'database']} />
+      </CardIcon>
+      <CardTitle>Data</CardTitle>
+      <CardText>
+        Designing and managing robust, scalable databases to ensure data integrity, security, and high performance.
+        Includes implementing relational and non-relational databases, optimizing query performance, and ensuring reliable backups and disaster recovery solutions.
+      </CardText>
+    </Card>
+
+    <Card>
+      <CardIcon>
+      <FontAwesomeIcon icon={['fac', 'llm-icon']} />
+      </CardIcon>
+      <CardTitle>LLM</CardTitle>
+      <CardText>
+       Leveraging Large Language Models (LLMs) to build intelligent, natural language processing applications.
+       includes fine-tuning LLMs, developing custom models, and integrating them into various applications to enhance user interactions
+       and automate complex language tasks.
       </CardText>
     </Card>
   </Flex>
@@ -62,9 +63,6 @@ const Home = () => {
           <p className="adjust">Dev | Software Architect | Developer Advocate</p>
 
           <div className="home__CTA">
-            <Button className="cta" as="a" href="#">
-              Download Resume
-            </Button>
 
             <div className="home__social">
               <IconLink
@@ -96,7 +94,7 @@ const Home = () => {
 
       {/* Things I LOVE */}
       <PageHeader style={{ marginBottom: 30 }}>
-        Services <i className="fas fa-heart" />
+        Focus Area <i className="fas fa-heart" />
       </PageHeader>
       <ThingsILove />
     </HomeWrapper>

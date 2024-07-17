@@ -6,22 +6,22 @@ const NavItemsSmoothLinks = ({ NavItem }) => (
   <>
     <NavItem>
       <SLink smooth offset={-70} hashSpy to="home">
-        home
+        Home
       </SLink>
     </NavItem>
     <NavItem>
       <SLink smooth offset={-100} hashSpy to="about">
-        about me
+        About
       </SLink>
     </NavItem>
     <NavItem>
-      <SLink smooth offset={-100} hashSpy to="advocate">
-        advocate
+      <SLink smooth offset={-100} hashSpy to="evangelism">
+        Evangelism
       </SLink>
     </NavItem>
     <NavItem>
       <SLink smooth offset={-100} hashSpy to="contact">
-        contact
+        Reachout
       </SLink>
     </NavItem>
   </>

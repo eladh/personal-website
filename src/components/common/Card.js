@@ -6,7 +6,7 @@ export const Card = styled.div`
   flex: 1 1 200px;
   max-width: 300px;
 
-  height: 300px;
+  height: 400px;
   padding: 20px;
 
   display: flex;

@@ -51,6 +51,14 @@ export const Intro = styled.section`
     font-size: 28px;
   }
 
+ .home__social a {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.home__social a:last-child {
+  margin-right: 0; /* Remove the margin for the last icon */
+}
+
   @media ${props => props.theme.media.tablet} {
     justify-content: space-between;
     flex-direction: column;

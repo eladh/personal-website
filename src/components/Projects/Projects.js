@@ -38,8 +38,8 @@ const Projects = () => {
   );
 
   return (
-    <ProjectsWrapper id="projects" style={{ marginBottom: 100 }}>
-      <PageHeader>Advocate</PageHeader>
+    <ProjectsWrapper id="evangelism" style={{ marginBottom: 100 }}>
+      <PageHeader>Evangelism</PageHeader>
 
       {projects.allMarkdownRemark.edges.map(({ node }) => (
         <ProjectTemplate
